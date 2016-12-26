@@ -26,11 +26,24 @@ h1, h2 {
   color: #ffffff;
 }
 
+ul li {
+  list-style: none;
+}
+
 nav {
   background: #599a68;
 }
 
 nav a, nav a:visited {
   color: #ffffff;
+}
+
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
+
+body {
+  background-color: #ffffff;
+  color: #999999;
 }
 
